@@ -35,7 +35,7 @@ public void Send(String fromEmailAddress, String toEmailAddress)
 
         protected PasswordAuthentication getPasswordAuthentication() {
 
-            return new PasswordAuthentication(fromEmailAddress, "tE6gyLXdbQczdK5");
+            return new PasswordAuthentication(fromEmailAddress, "App password");
 
         }
 
